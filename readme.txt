@@ -18,7 +18,7 @@ App has following features:
 -User can post Job and see its posted job on profile
 
 
--All the other things like notifications , gigs etc will be shown through queries in presentation
+-All the other things like notifications , gigs etc is shown through queries in presentation
  as we were not able to complete full app before deadline.
 
 
