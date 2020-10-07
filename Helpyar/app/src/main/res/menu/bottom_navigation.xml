@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:icon="@drawable/ic_home_black_24dp" android:id="@+id/nav_home"
+        android:title="Home"></item>
+    <item android:title="Messages" android:icon="@drawable/ic_message_black_24dp" android:id="@+id/nav_messages"></item>
+    <item android:title="Add" android:icon="@drawable/ic_add_black_24dp" android:id="@+id/nav_add"></item>
+    <item android:title="Notification" android:icon="@drawable/ic_notifications_active_black_24dp" android:id="@+id/nav_notification"></item>
+    <item android:title="Profile" android:icon="@drawable/ic_account_circle_black_24dp" android:id="@+id/nav_profile"></item>
+
+</menu>

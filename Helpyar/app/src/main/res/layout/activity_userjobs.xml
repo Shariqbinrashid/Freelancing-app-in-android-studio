@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".userjobsActivity">
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbarpostjobs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        app:navigationIcon="@drawable/ic_arrow_back_black_24dp"
+        android:background="@drawable/toolbaroutline"
+        app:popupTheme="@color/colorPrimary"
+        app:title="Posted Jobs"
+        app:titleTextColor="@color/colorPrimary">
+    </androidx.appcompat.widget.Toolbar>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerviewpostjob"
+        android:layout_width="match_parent"
+        android:layout_below="@id/toolbarpostjobs"
+        android:layout_height="match_parent"
+        android:padding="4dp"
+        android:scrollbars="vertical">
+
+
+    </androidx.recyclerview.widget.RecyclerView>
+</RelativeLayout>

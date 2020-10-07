@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="15dp"
+    android:layout_marginRight="15dp"
+    android:layout_marginTop="15dp"
+    android:orientation="vertical">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TITLE"
+        android:textSize="25dp"
+        android:textColor="@color/colorPrimary"
+        android:background="@drawable/toolbaroutline"
+        android:padding="10dp">
+
+    </TextView>
+<EditText
+    android:id="@+id/jobtitle"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textColor="@color/colorPrimary"
+    android:textSize="25dp"></EditText>
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Description"
+            android:textSize="15dp"
+            android:textColor="@color/colorPrimary"
+            android:background="@drawable/toolbaroutline"
+            android:padding="10dp">
+
+        </TextView>
+        <EditText
+            android:id="@+id/jobdescr"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:inputType="textMultiLine"
+            android:textColor="@color/colorPrimary"
+            android:textSize="25dp"></EditText>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Details"
+            android:textSize="20dp"
+            android:textColor="@color/colorPrimary"
+            android:background="@drawable/toolbaroutline"
+            android:padding="10dp">
+
+        </TextView>
+        <EditText
+            android:id="@+id/jobdetails"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:inputType="textMultiLine"
+            android:textColor="@color/colorPrimary"
+            android:textSize="25dp"></EditText>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Amount"
+            android:textSize="20dp"
+            android:textColor="@color/colorPrimary"
+            android:background="@drawable/toolbaroutline"
+            android:padding="10dp">
+
+        </TextView>
+        <EditText
+            android:id="@+id/jobamount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:textColor="@color/colorPrimary"
+            android:textSize="25dp"></EditText>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Type"
+            android:textSize="20dp"
+            android:textColor="@color/colorPrimary"
+            android:background="@drawable/toolbaroutline"
+            android:padding="10dp">
+
+        </TextView>
+        <Spinner
+            android:id="@+id/spinnertype"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@android:drawable/btn_dropdown"
+            android:spinnerMode="dropdown"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Category"
+            android:textSize="20dp"
+            android:textColor="@color/colorPrimary"
+            android:background="@drawable/toolbaroutline"
+            android:padding="10dp">
+
+        </TextView>
+        <Spinner
+            android:id="@+id/spinnercategory"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@android:drawable/btn_dropdown"
+            android:spinnerMode="dropdown"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/jobpostbutton"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:background="@color/colorPrimary"
+        android:text="POST"
+        android:textSize="25dp"
+        android:textColor="@color/white"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="right"></Button>
+
+
+</LinearLayout>
+</RelativeLayout>

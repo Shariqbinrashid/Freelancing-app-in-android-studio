@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="10dp"
+    android:layout_margin="10dp"
+    android:backgroundTint="#E8DFDF"
+    android:outlineAmbientShadowColor="@color/colorPrimary"   >          >
+    <LinearLayout
+        android:id="@+id/messageitemlinearlayput"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_margin="4dp"
+        android:padding="10dp"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/chatUser"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="User"
+            android:textColor="@color/colorPrimary"
+            android:textSize="25dp"
+            ></TextView>
+        <TextView
+            android:id="@+id/chatMessage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_marginLeft="0dp"
+            android:text="Last message Text"
+            android:textSize="20dp"
+            ></TextView>
+
+        <TextView
+            android:id="@+id/messageDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="0dp"
+            android:layout_gravity="right"
+            android:text="date"
+            android:textSize="10dp"
+            ></TextView>
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="10dp"
+    android:layout_margin="10dp"
+    android:backgroundTint="#C097B1"
+    android:outlineAmbientShadowColor="@color/colorPrimary">          >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="4dp"
+        android:padding="10dp"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/homeJobTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text="Title"
+            android:textColor="@color/colorPrimary"
+            android:textSize="30dp"
+            ></TextView>
+        <TextView
+            android:id="@+id/homeJobAmount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_marginLeft="0dp"
+            android:text="Amount"
+            android:textSize="25dp"
+            ></TextView>
+        <TextView
+            android:id="@+id/homeJobAssigned"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="0dp"
+            android:layout_gravity="left"
+            android:text="Job Assigned"
+            android:textSize="25dp"
+            ></TextView>
+        <TextView
+            android:id="@+id/homeJobDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="0dp"
+            android:layout_gravity="right"
+            android:text="Posted date"
+            android:textSize="15dp"
+            ></TextView>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="4dp"
+        android:padding="10dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/homeAcceptBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:text="DETAILS"
+            android:textSize="15dp"
+            android:textColor="@color/white"
+
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp">
+
+
+        </Button>
+
+        <Button
+            android:id="@+id/homeDetailsBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:text="ACCEPT"
+            android:textSize="15dp"
+            android:textColor="@color/white"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="170dp">
+
+
+        </Button>
+
+    </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

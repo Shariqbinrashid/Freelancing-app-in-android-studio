@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="10dp"
+    android:layout_margin="10dp"
+    android:backgroundTint="#E8DFDF"
+    android:outlineAmbientShadowColor="@color/colorPrimary"   >          >
+    <LinearLayout
+        android:id="@+id/postedjobitemlinearlayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="4dp"
+        android:padding="10dp"
+        android:orientation="vertical">
+
+
+<TextView
+    android:id="@+id/postedjobtitle"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textAlignment="center"
+    android:text="Title"
+    android:textColor="@color/colorPrimary"
+    android:textSize="30dp"
+    ></TextView>
+        <TextView
+            android:id="@+id/postedjobamount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_marginLeft="0dp"
+            android:text="Amount"
+            android:textSize="25dp"
+            ></TextView>
+        <TextView
+            android:id="@+id/postedjobstatus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="0dp"
+            android:layout_gravity="left"
+            android:text="Job Status"
+            android:textSize="25dp"
+            ></TextView>
+        <TextView
+            android:id="@+id/postedjobdate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="0dp"
+            android:layout_gravity="right"
+            android:text="Posted date"
+            android:textSize="15dp"
+            ></TextView>
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
